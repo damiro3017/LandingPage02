@@ -5,18 +5,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LandingPage02 | Practice</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="./styles/styles.css">
 </head>
 
 <body>
-    <header>
-        <h1>New Landing Practice</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
+    <header class="header">
+        <h2 class="header__logo">Portfolio</h2>
+
+        <button class="open__menu__btn" type="button">
+            <i class='bx bx-menu'></i>
+        </button>
+
+        <nav class="header__navbar">
+            <button class="close__menu__btn" type="button">
+                <i class='bx bx-x'></i>
+            </button>
+            <ul class="header__navbar__list">
+                <li class="header__navbar__item">
+                    <a class="header__navbar__link" href="#works"><i class='bx bx-briefcase'></i>Works</a>
+                </li>
+                <li class="header__navbar__item">
+                    <a class="header__navbar__link" href="#blog"><i class='bx bx-code-block'></i>Blog</a>
+                </li>
+                <li class="header__navbar__item">
+                    <a class="header__navbar__link" href="#contact"><i class='bx bxs-contact'></i>Contact</a>
+                </li>
             </ul>
         </nav>
     </header>
