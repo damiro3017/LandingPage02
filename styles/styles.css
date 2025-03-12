@@ -84,11 +84,11 @@ body {
   align-items: center;
 
   padding: 1rem 1.5rem;
+  width: 100%;
 }
 
 .header__navbar {
   position: absolute;
-  display: flex;
   align-items: flex-end;
   flex-direction: column;
   background-color: var(--dark-blue);
@@ -99,7 +99,7 @@ body {
   width: 15rem;
   gap: 2rem;
   padding: 2rem;
-  transform: translateX(100%);
+  display: none;
   transition: all 0.3s;
 }
 
@@ -137,7 +137,7 @@ body {
 }
 
 .active {
-  transform: translateX(0);
+  display: flex;
 }
 
 @media screen and (min-width: 768px) {
@@ -151,13 +151,15 @@ body {
 
   .header__navbar {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     position: static;
     flex-direction: row;
     background-color: transparent;
     color: var(--dark-blue);
     transform: translateX(0);
+    width: inherit;
+    padding: 0;
   }
 
   .header__navbar__list {
