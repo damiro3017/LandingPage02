@@ -9,7 +9,7 @@
 
 .header__navbar {
   position: absolute;
-  align-items: flex-end;
+  align-items: flex-start;
   flex-direction: column;
   background-color: var(--dark-blue);
   color: var(--white);
@@ -24,7 +24,7 @@
 
 .header__navbar__list {
   display: flex;
-  align-items: flex-end;
+  align-items: flex-start;
   flex-direction: column;
   font-weight: 600;
   gap: 2rem;

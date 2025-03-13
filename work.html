@@ -26,11 +26,11 @@
                 <i class='bx bx-x'></i>
             </button>
             <ul class="header__navbar__list">
-                <li class="header__navbar__item on__page">
+                <li class="header__navbar__item">
                     <a class="header__navbar__link" href="./index.html"><i class='bx bx-home-alt-2'></i></i>Home</a>
                 </li>
                 <li class="header__navbar__item">
-                    <a class="header__navbar__link" href="./work.html"><i class='bx bx-briefcase'></i>Works</a>
+                    <a class="header__navbar__link on__page" href="./work.html"><i class='bx bx-briefcase'></i>Works</a>
                 </li>
                 <li class="header__navbar__item">
                     <a class="header__navbar__link" href="./blog.html"><i class='bx bx-code-block'></i>Blog</a>
@@ -40,55 +40,6 @@
     </header>
 
     <main class="main">
-
-        <section class="hero">
-            <div class="hero__section">
-                <div class="hero__img">
-                    <img src="./assets/images/hero.webp" alt="Hero Image">
-                </div>
-
-                <div class="hero__content">
-                    <h1>Hi, I am John, Creative Technologist</h1>
-                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
-                        duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
-                    </p>
-                    <button class="hero__btn">Download Resume</button>
-                </div>
-            </div>
-        </section>
-
-        <section class="recent-posts">
-            <div class="recent-posts__section">
-                <h2 class="recent-post__title">Recent Posts</h2>
-
-                <div class="recent-post__grid">
-                    <article class="recent-post__item">
-                        <h4 class="recent-post__item__title">Making a design system from scratch</h4>
-                        <div class="recent-post__info">
-                            <small>
-                                <time class="recent-posts__time" datetime="2025-02-18">18 Feb 2025</time>
-                            </small>
-                            <small class="recent-post__tags">Web Development, JavaScript</small>
-                        </div>
-                        <p class="recent-post__desc">Developed a dynamic web application using modern JavaScript
-                            frameworks and libraries.</p>
-                    </article>
-
-                    <article class="recent-post__item">
-                        <h4 class="recent-post__item__title">Creating pixel perfect icons in Figma</h4>
-                        <div class="recent-post__info">
-                            <small>
-                                <time class="recent-posts__time" datetime="2023-01-15">15 Jan 2023</time>
-                            </small>
-                            <small class="recent-post__tags">Design, Figma</small>
-                        </div>
-                        <p class="recent-post__desc">Developed a dynamic web application using modern JavaScript
-                            frameworks and libraries.</p>
-                    </article>
-                </div>
-            </div>
-        </section>
-
         <section class="featured-works">
             <div class="featured-works__section">
                 <h2 class="featured-works__title">Featured Works</h2>
@@ -149,10 +100,30 @@
                             </p>
                         </div>
                     </article>
+
+                    <article class="featured-works__item">
+                        <div class="featured-works__img fourth"></div>
+
+                        <div class="featured-works__info">
+                            <h4 class="featured-works__item__title">UIBlocks: Modular Component Library</h4>
+                            <div class="featured-works__tags">
+                                <small>
+                                    <time class="featured-works__time" datetime="2024">2024</time>
+                                </small>
+                                <small class="featured-works__tags">Components, UI Design</small>
+                            </div>
+                            <p class="featured-works__item__desc">
+                                Built a scalable component library in React with Tailwind CSS, focusing on
+                                reusability and accessibility for modern web applications.
+                            </p>
+                        </div>
+                    </article>
                 </div>
             </div>
         </section>
     </main>
+
+
 
     <footer class="footer">
         <ul class="footer__social__list">

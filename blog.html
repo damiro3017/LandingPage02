@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Landing Page 02 Practice">
+
+    <title>LandingPage02 | Practice</title>
+
+    <link rel="icon" href="./assets/icons/favicon.ico" type="image/x-icon">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/pages/blog.css">
+</head>
+
+<body>
+    <header class="header">
+        <h4 class="header__logo">Portfolio</h4>
+
+        <button class="open__menu__btn" type="button">
+            <i class='bx bx-menu'></i>
+        </button>
+
+        <nav class="header__navbar">
+            <button class="close__menu__btn" type="button">
+                <i class='bx bx-x'></i>
+            </button>
+            <ul class="header__navbar__list">
+                <li class="header__navbar__item">
+                    <a class="header__navbar__link" href="./index.html"><i class='bx bx-home-alt-2'></i></i>Home</a>
+                </li>
+                <li class="header__navbar__item">
+                    <a class="header__navbar__link" href="./works.html"><i class='bx bx-briefcase'></i>Works</a>
+                </li>
+                <li class="header__navbar__item">
+                    <a class="header__navbar__link on__page" href="./blog.html"><i class='bx bx-code-block'></i>Blog</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="blog__section">
+            <h2 class="blog__section__title">Blog</h2>
+
+            <div class="blog__container">
+
+                <article class="blog__item">
+                    <h4 class="blog__item__title">EcoTravel: Sustainable Journey Planner</h4>
+                    <div class="blog__info">
+                        <small>
+                            <time class="blog__time" datetime="2024-11-05">05 Nov 2024</time>
+                        </small>
+                        <small class="blog__tags">React, TailwindCSS, Node.js</small>
+                    </div>
+                    <p class="blog__desc">
+                        EcoTravel is an eco-friendly travel planner that helps users discover sustainable destinations,
+                        eco-lodges, and carbon-neutral transport options. Built with React and powered by real-time
+                        APIs.
+                    </p>
+                </article>
+
+                <article class="blog__item">
+                    <h4 class="blog__item__title">FitSync: AI Personal Trainer</h4>
+                    <div class="blog__info">
+                        <small>
+                            <time class="blog__time" datetime="2024-10-20">20 Oct 2024</time>
+                        </small>
+                        <small class="blog__tags">Python, Flask, TensorFlow</small>
+                    </div>
+                    <p class="blog__desc">
+                        FitSync is an AI-driven fitness app that customizes workout plans based on user progress and
+                        goals. It integrates machine learning models for personalized recommendations and real-time
+                        analytics.
+                    </p>
+                </article>
+
+                <article class="blog__item">
+                    <h4 class="blog__item__title">Artify: Digital Art Marketplace</h4>
+                    <div class="blog__info">
+                        <small>
+                            <time class="blog__time" datetime="2024-09-15">15 Sep 2024</time>
+                        </small>
+                        <small class="blog__tags">Vue.js, Firebase, Stripe API</small>
+                    </div>
+                    <p class="blog__desc">
+                        Artify connects artists and buyers in a seamless digital marketplace. Artists can showcase and
+                        sell their work, while buyers can securely purchase and commission unique digital art pieces.
+                    </p>
+                </article>
+
+                <article class="blog__item">
+                    <h4 class="blog__item__title">BookNest: Personalized Book Recommendations</h4>
+                    <div class="blog__info">
+                        <small>
+                            <time class="blog__time" datetime="2024-08-12">12 Aug 2024</time>
+                        </small>
+                        <small class="blog__tags">Django, PostgreSQL, OpenAI API</small>
+                    </div>
+                    <p class="blog__desc">
+                        BookNest is a recommendation platform that uses AI to suggest books based on a user’s reading
+                        history and preferences. It also allows users to create custom reading lists and share them.
+                    </p>
+                </article>
+
+                <article class="blog__item">
+                    <h4 class="blog__item__title">FoodCraft: Custom Recipe Generator</h4>
+                    <div class="blog__info">
+                        <small>
+                            <time class="blog__time" datetime="2024-07-01">01 Jul 2024</time>
+                        </small>
+                        <small class="blog__tags">Next.js, MongoDB, GraphQL</small>
+                    </div>
+                    <p class="blog__desc">
+                        FoodCraft helps users create customized recipes based on available ingredients. It uses a smart
+                        algorithm to suggest combinations, cooking times, and step-by-step guides for home chefs.
+                    </p>
+                </article>
+            </div>
+
+
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <ul class="footer__social__list">
+            <li class="footer__social__item">
+                <a class="footer__social__link" href="#"><i class='bx bxl-facebook-square'></i></a>
+            </li>
+            <li class="footer__social__item">
+                <a class="footer__social__link" href="#"><i class='bx bxl-instagram'></i></i></a>
+            </li>
+            <li class="footer__social__item">
+                <a class="footer__social__link" href="#"><i class='bx bxl-twitter'></i></a>
+            </li>
+            <li class="footer__social__item">
+                <a class="footer__social__link" href="#"><i class='bx bxl-linkedin-square'></i></a>
+            </li>
+        </ul>
+
+        <p class="footer__copyright">©2025 Company Name</p>
+    </footer>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
